@@ -2,7 +2,7 @@
 
 ADNLS3 is the official Ateneo de Naga League Season 3 website. It presents the public league experience, publishes event information, and provides a protected admin portal for content managers.
 
-Repository: ADNUELeague
+Website Link: https://adnuleague.com/
 
 ## What The App Does
 
