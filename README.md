@@ -23,21 +23,6 @@ The site functions as both a public information hub and an admin dashboard for l
 
 ---
 
-## 🚦 Public Routes
-Live routes are defined in `src/routes/AppRoutes.jsx`.
-
-| Route | Purpose |
-| :--- | :--- |
-| **`/`** | **Home Page:** Featured matchup carousel, live updates, latest announcements, and home rankings. |
-| **`/schedule`** | **Event Schedule:** Day 1 to Day 5 event program with sports, times, and venue assignments. |
-| **`/ranking`** | **Leaderboards:** Department standings and specific event rankings. |
-| **`/bracketing`** | **Tournament Brackets:** Real-time matchup views and scoring pairings. |
-| **`/more/guidelines`** | **Official Rules:** Guidelines and requirements with downloadable PDFs via Supabase Storage. |
-| **`/more/directory`** | **Team Directory:** Searchable listing of team managers with contact and social links. |
-| **`/more/about`** | **About:** Season story, acknowledgments, and anonymous concern/forum entry point. |
-
----
-
 ## ✨ Core Features
 
 ### 🏠 Homepage Highlights
@@ -66,21 +51,3 @@ Admins sign in at a specific link to access a tabbed dashboard for managing:
 
 ---
 
-## 🗄 Supabase Data Layer
-Integration is managed through `src/services/supabaseClient.js`.
-
-**Required Environment Variables:**
-* `VITE_SUPABASE_URL`
-* `VITE_SUPABASE_PUBLISHABLE_KEY` (or `VITE_SUPABASE_ANON_KEY`)
-
-**Key Tables & Buckets:**
-`announcements`, `schedules`, `departments`, `events`, `event_results`, `brackets`, `directory`, `guidelines`, `featured_matchup`, `now_happening_posts`, `app_settings`.
-* **Storage Buckets:** `now-happening`, `adnl-guidelines`.
-
----
-
-## 💻 Local Setup
-
-1. **Install Dependencies:**
-   ```bash
-   npm install
