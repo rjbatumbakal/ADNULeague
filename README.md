@@ -9,7 +9,10 @@
 
   ## 🔗 [Visit Official Website: adnuleague.com](https://adnuleague.com/)
   **The official digital hub for the Ateneo de Naga League Season 3**
+  
 </div>
+
+Walkthrough: https://www.youtube.com/watch?v=y5U7nO3hoKM&t=147s
 
 ---
 
