@@ -14,7 +14,8 @@
 ---
 
 ## 📖 Overview
-**ADNLS3** is the official Ateneo de Naga League Season 3 website. It presents a comprehensive public league experience, publishes real-time event information, and provides a protected admin portal for content managers.
+**ADNLS3** served as the official digital "single source of truth" for Ateneo de Naga University’s Intramurals. The platform was designed to eliminate information fragmentation by centralizing schedules, real-time scoring, and official announcements into a high-performance web experience.
+
 
 ### What The App Does
 The site functions as both a public information hub and an admin dashboard for league operations.
@@ -40,14 +41,47 @@ The home page combines four core surfaces to ensure maximum engagement:
 * **Directory:** Searchable listing with committee-based filtering and quick contact actions.
 * **Guidelines:** Securely served assets via **Supabase Storage** buckets.
 
----
 
-## 🔐 Admin Portal
+### 🔐 Admin Portal
 Admins sign in at a specific link to access a tabbed dashboard for managing:
 * Upcoming games and featured matchups.
 * Now Happening media, captions, and publishing states.
 * Schedules, announcements, and scoring results.
 * Concern submissions and forum entries.
+
+---
+
+
+## 📈 Performance & Impact Metrics
+* **Total Reach:** Handled **52,000+ total page views** during the peak event period.
+* **Unique Users:** Served over **11,000 unique visitors** within a 5-day window.
+* **System Reliability:** Maintained **99.9% uptime** under heavy concurrent load during live match updates.
+* **Development Velocity:** Delivered the full-stack platform in a **strict two-week sprint** while managing concurrent academic exams.
+
+---
+
+## ✨ Project Highlights & Key Features
+
+### 📡 Public Information Hub
+* **Real-Time Bracketing:** Dynamic tournament trees that update instantly as scores are reported.
+* **Live Event Scheduling:** A day-by-day program (Day 1–5) with advanced filtering for sports and venues.
+* **Automated Rankings:** Real-time department standings and medal tallies with admin-controlled "blackout" visibility for finales.
+* **Engagement Surfaces:** Integrated "Now Happening" media carousels and featured match spotlights to drive student engagement.
+
+### 🛡️ Security & Reliability
+* **Centralized Management:** Admins manage matchups, media, schedules, and scoring via a protected dashboard.
+* **Auditability:** Activity logs for all admin-driven changes to ensure data integrity.
+* **Security Post-Mortem:** Mitigated unauthorized API information disclosure by implementing strict permission scoping and data abstraction.
+* **Secure Assets:** Guidelines and media served via **Supabase Storage** with row-level security.
+
+
+---
+
+## 🤖 AI-Accelerated Workflow
+To meet the aggressive two-week deadline, We integrated an **AI-first development strategy**:
+* **Architecture Simulation:** Used **Gemini** as a project architect to simulate database schemas and handle edge-case logic before coding.
+* **High-Velocity Coding:** Leveraged **GitHub Copilot** to automate boilerplate React components and accelerate debugging.
+* **Deployment:** Utilized a CI/CD pipeline via **Vercel** to push critical hotfixes instantly during live events.
 
 ---
 
